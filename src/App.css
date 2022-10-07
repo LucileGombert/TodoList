@@ -1,0 +1,88 @@
+.header{
+  height: 200px;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 50px;
+}
+
+.addList-container {
+  max-width: 30em !important;
+}
+.list-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #F6F7F8;
+  padding : 40px 100px;
+}
+
+.listCard-container{
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #A5A5A5;
+}
+
+.listCard{
+  width: 270px; 
+  height: 200px; 
+  box-shadow: 0px 3px 50px #A5A5A5;
+  display: flex;
+  flex-direction: column;
+}
+
+.listCard-border{
+  width: 100%;
+  height: 2%;
+}
+
+.listCard-header{
+  height: 10%;
+  margin: 10px;
+  border-radius: 10px;
+  display : flex;
+  justify-content: space-between;
+}
+
+.listCard-title{
+  max-width: 70%;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.listCard-icons {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.addTask-container {
+  margin: 10px;
+}
+
+.taskCard {
+  border-radius: 6px;
+}
+
+.taskBg {
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+.taskBg .taskText {
+  flex: 1;
+}
+.taskBg .done .taskText {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
